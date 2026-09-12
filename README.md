@@ -23,7 +23,7 @@ Kode ini digunakan untuk menerima pilihan menu dari pengguna berdasar pilihannya
 
 ======== PEMBAHASAN MENU PERTAMA : MENAMBAH TUGAS ========<br>
 1. <img width="273" height="34" alt="Screenshot 2026-09-12 120835" src="https://github.com/user-attachments/assets/237b4d0d-5977-4e6f-9107-5fe91ad6ad56" /> <br>
-Conditional statement `if pilihan == "1":` digunakan untuk mengecek apakah pengguna memilih menu nomor 1. Jika nilai pilihan adalah "1", maka seluruh kode di dalam blok tersebut akan dijalankan. Jika tidak, , maka blok ini tidak akan berjalan.Dan juga code print `("--- TAMBAH TUGAS ---")` <br>
+Conditional statement `if pilihan == "1":` digunakan untuk mengecek apakah pengguna memilih menu nomor 1. Jika nilai pilihan adalah "1", maka seluruh kode di dalam blok tersebut akan dijalankan. Jika tidak, maka blok ini tidak akan berjalan.Dan juga code print `("--- TAMBAH TUGAS ---")` <br>
 
 2.<img width="359" height="81" alt="Screenshot 2026-09-12 121316" src="https://github.com/user-attachments/assets/1a49d9db-7257-4d31-b6ab-23d56770c3d1" /> <br>
 Untuk baris pertama, program meminta pengguna memasukkan nama atau deskripsi tugas dengan menggunakan fungsi input. Di lanjutkan dengan menggunakan while untuk memastikan pengguna tidak memasukkan nama tugas kosong. Jika nama == "", berarti pengguna tidak memasukkan teks apa pun. Program kemudian memberikan pesan kesalahan dan meminta pengguna memasukkan nama tugas kembali. <br>
