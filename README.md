@@ -84,8 +84,15 @@ Program memastikan nomor yang dimasukkan berupa angka yang tidak kurang dari 1 n
 6.<img width="239" height="32" alt="Screenshot 2026-09-12 134137" src="https://github.com/user-attachments/assets/d56e28aa-79eb-401e-9d7a-ed01906673f6" /> <br>
 Bagan ini mengartikan jika nomor yang dimasukkan pengguna diubah menjadi integer. Kemudian dikurangi 1 karena indeks list Python dimulai dari 0. <br>
 
-7. 
+7. <img width="419" height="62" alt="image" src="https://github.com/user-attachments/assets/c37471d0-d89f-4ce3-86ec-a1bc6c685d11" /> <br>
+Sebelum dihapus, nama tugas disimpan ke variabel tugas_dihapus agar dapat ditampilkan dalam pesan konfirmasi. Lalu tugas akan dihapus dengan `tugas.pop(index)`. Dan setelah selesai,sistem akan menampilkan jika tugas telah dihapus. <br>
 
+8.Output <br>
+<img width="518" height="163" alt="Screenshot 2026-09-12 140117" src="https://github.com/user-attachments/assets/86ec5c9e-d295-430a-9cde-358c60d1592e" /> <br>
+
+
+======== PEMBAHASAN MENU KEEMPAT: UBAH HAPUS TUGAS ========<br>
+1.
 
 
 
