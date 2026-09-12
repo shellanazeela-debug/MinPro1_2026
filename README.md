@@ -109,7 +109,33 @@ Pada bagian ini, Nomor tugas diubah menjadi integer kemudian dikurangi satu untu
 
 6.<img width="452" height="323" alt="Screenshot 2026-09-12 150751" src="https://github.com/user-attachments/assets/becfcd73-daf5-4d50-9b84-325c301166f7" /> <br>
 Pertama program akan meminta user untuk melakukan penginputan nama tugas baru sebagai pengganti dari tugas sebelumnya. Setelah itu program akan melakukan validasi nama tugas. Program akan memeriksa apakah pengguna memasukkan nama kosong.
-Jika nama_baru == "", program menampilkan pesan bahwa nama tugas tidak boleh kosong dan meminta pengguna memasukkan nama kembali. Setelahnya, Program meminta pengguna memasukkan jumlah hari yang tersisa sebelum deadline yang baru. Nilai tersebut disimpan dalam variabel sisa_hari_baru. Dan akan melakukan sistem validasi apakah kode yang digunakan merupakan 
+Jika nama_baru == "", program menampilkan pesan bahwa nama tugas tidak boleh kosong dan meminta pengguna memasukkan nama kembali. Setelahnya, Program meminta pengguna memasukkan jumlah hari yang tersisa sebelum deadline yang baru. Nilai tersebut disimpan dalam variabel sisa_hari_baru. Dan akan melakukan sistem validasi apakah kode yang digunakan merupakan huruf atau angka. Dan harus angka. Setelah input dipastikan berupa angka, nilai tersebut diubah dari string menjadi integer menggunakan int().Setelah itu, bagian ini menampilkan pilihan tingkat kesulitan tugas dari skala 1 sampai 5. Pengguna dapat menentukan tingkat kesulitan tugas yang baru berdasarkan pilihan tersebut.<br>.
+
+7.<img width="647" height="105" alt="Screenshot 2026-09-12 152252" src="https://github.com/user-attachments/assets/9f2f98e0-f485-47d1-9f1c-239dbd3a6e1a" /> <br>
+-Program pertama Kode ini digunakan untuk meminta pengguna memasukkan skala kesulitan baru dari tugas yang sedang diubah. Input disimpan dalam variabel kesulitan_baru. 
+-Setelah itu, ia akan memvalidasi input. Perulangan akan berjalan jika pengguna memasukkan data yang tidak sesuai, yaitu Input bukan berupa angka, angka yang dimasukkan kurang dari 1 , angka yang dimasukkan lebih dari 5. Jika input tidak valid, program menampilkan pesan kesalahan dan meminta pengguna memasukkan skala kesulitan kembali. Proses ini akan terus berulang sampai pengguna memasukkan angka dari 1 hingga 5.
+-Dan terakhir, dalam code `kesulitan_baru = int(kesulitan_baru)` nilai kesulitan_baru diubah dari tipe data string menjadi integer menggunakan int().<br>
+
+8.<img width="437" height="317" alt="Screenshot 2026-09-12 154922" src="https://github.com/user-attachments/assets/c7c93be1-3720-43b9-a033-1b87a03c5c08" /><br>
+- pada bagan awal, Bagian ini memiliki fungsi yang sama dengan penentuan tingkat kesulitan pada menu tambah tugas, tetapi menggunakan variabel yang baru diinput pengguna sebagai pengganti tugas. Tujuannya adalah menentukan keterangan tingkat kesulitan berdasarkan skala yang baru dimasukkan pengguna.
+- Setelah deadline dan kesulitan diperbarui, program menghitung ulang prioritas tugas. Hal ini penting karena perubahan deadline atau tingkat kesulitan dapat menyebabkan prioritas tugas berubah. Contohnya, tugas yang sebelumnya memiliki prioritas rendah dapat berubah menjadi tinggi apabila deadline-nya diubah menjadi tinggal satu hari. (baikin lagi semua dibawah)
+
+9.<img width="260" height="105" alt="Screenshot 2026-09-12 155706" src="https://github.com/user-attachments/assets/90a97930-16a9-47f5-ba12-b957d09137d1" /> <br>
+Bagian ini digunakan untuk mengganti seluruh data tugas lama dengan data baru. Berbeda dengan append(), kode ini tidak menambahkan tugas baru. Data pada posisi indeks tertentu justru diganti dengan informasi terbaru. <br>
+
+10.<img width="426" height="105" alt="Screenshot 2026-09-12 155832" src="https://github.com/user-attachments/assets/f91d97c4-7916-4bbd-8e0e-b7693938f2dd" /> <br>
+Bagian ini digunakan untuk mengganti seluruh data tugas lama dengan data baru. Berbeda dengan append(), kode ini tidak menambahkan tugas baru. Data pada posisi indeks tertentu justru diganti dengan informasi terbaru. <br>
+
+11.<img width="474" height="106" alt="Screenshot 2026-09-12 155951" src="https://github.com/user-attachments/assets/9a2b6b65-864e-4eb0-84f1-cf4cb3db1485" /> <br>
+Bagian ini memberikan konfirmasi bahwa tugas berhasil diperbarui. Program juga menampilkan seluruh data terbaru agar pengguna dapat memastikan bahwa perubahan telah tersimpan. Perintah break digunakan untuk menghentikan while True. Tanpa break, menu akan terus berjalan tanpa batas.<br>
+
+12<img width="404" height="53" alt="Screenshot 2026-09-12 160106" src="https://github.com/user-attachments/assets/41a9c03c-3c75-4a99-8c7e-d0d7ab318094" /> <br> 
+Blok else dijalankan apabila pengguna memasukkan pilihan selain "1", "2", "3", "4", atau "5". Program tidak langsung berhenti, tetapi memberikan pesan kesalahan. Setelah itu, karena masih berada di dalam while True, program kembali menampilkan menu utama dan pengguna dapat mencoba memasukkan pilihan yang benar. <br>
+
+
+
+
+
 
 
 
