@@ -92,7 +92,30 @@ Sebelum dihapus, nama tugas disimpan ke variabel tugas_dihapus agar dapat ditamp
 
 
 ======== PEMBAHASAN MENU KEEMPAT: UBAH HAPUS TUGAS ========<br>
-1.
+1.<img width="281" height="37" alt="Screenshot 2026-09-12 144707" src="https://github.com/user-attachments/assets/db396be8-c7ee-43a9-943d-fe12b3994376" /> <br>
+Pada bagian ini, akan berjalan Jika pengguna memilih menu nomor 4, program menjalankan proses untuk mengubah data tugas yang sudah tersimpan. <br>
+
+2. <img width="342" height="35" alt="image" src="https://github.com/user-attachments/assets/92e0f0c9-8838-4c13-8059-61188909bec7" /> <br>
+Pada bagian ini, Program memeriksa apakah terdapat tugas yang dapat diubah. Jika list kosong, program memberikan informasi kepada pengguna yaitu "belum ada tugas yang diubah." <br>
+
+3. <img width="332" height="41" alt="image" src="https://github.com/user-attachments/assets/ddf9b2c8-9808-4eb7-bd50-07373761b540" /> <br>
+Untuk bagian ini,Jika terdapat tugas, program menampilkan daftar tugas beserta nomor urutnya. Pengguna kemudian dapat menentukan tugas mana yang ingin diubah.<br>
+
+4. <img width="545" height="77" alt="Screenshot 2026-09-12 145450" src="https://github.com/user-attachments/assets/1970a668-df92-4bc1-8cbd-ecadadaeee80" /> <br>
+Bagian ini, Program meminta pengguna memasukkan nomor tugas yang ingin diedit. Setelah itu program akan melakukan validasi yang digunakan untuk memastikan nomor yang dimasukkan merupakan angka dan berada dalam daftar tugas yang tersedia. Dan ketika pengguna memasukkan nilai yang tidak tersedia, program akan menampilkan pesan "nomor tugas tidak tersedia!".<br>
+
+5.<img width="230" height="35" alt="Screenshot 2026-09-12 150605" src="https://github.com/user-attachments/assets/cd1ffb39-dd36-463f-b1b9-586c82592252" /> <br>
+Pada bagian ini, Nomor tugas diubah menjadi integer kemudian dikurangi satu untuk menyesuaikan dengan indeks list Python.<br>
+
+6.<img width="452" height="323" alt="Screenshot 2026-09-12 150751" src="https://github.com/user-attachments/assets/becfcd73-daf5-4d50-9b84-325c301166f7" /> <br>
+Pertama program akan meminta user untuk melakukan penginputan nama tugas baru sebagai pengganti dari tugas sebelumnya. Setelah itu program akan melakukan validasi nama tugas. Program akan memeriksa apakah pengguna memasukkan nama kosong.
+Jika nama_baru == "", program menampilkan pesan bahwa nama tugas tidak boleh kosong dan meminta pengguna memasukkan nama kembali. Setelahnya, Program meminta pengguna memasukkan jumlah hari yang tersisa sebelum deadline yang baru. Nilai tersebut disimpan dalam variabel sisa_hari_baru. Dan akan melakukan sistem validasi apakah kode yang digunakan merupakan 
+
+
+
+
+
+
 
 
 
