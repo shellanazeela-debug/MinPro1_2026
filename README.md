@@ -16,7 +16,7 @@ Bagian ini menggunakan fungsi input() untuk meminta pengguna memasukkan nama seb
 Kode while True digunakan untuk membuat perulangan tanpa batas pada program. yang dimana, menu utama akan terus ditampilkan dan pengguna dapat melakukan berbagai aktivitas seperti menambah, melihat, menghapus, atau mengubah tugas.<br>
 
 <img width="655" height="107" alt="Screenshot 2026-09-12 120047" src="https://github.com/user-attachments/assets/244faad8-c7cb-46bf-9350-0d3636bff248" /> <br>
-kode diatas digunakan untuk membuat menu tampilan yang dimana akan mempermudah user untuk menjalankan perintah. Variabel Nama digabungkan dengan teks menggunakan beberapa argumen pada print(). Tujuannya agar program terasa lebih interaktif dan personal.Menu tersebut nantinya akan diproses menggunakan conditional statement if, elif, dan else.<br>
+kode diatas digunakan untuk membuat menu tampilan yang dimana akan mempermudah user untuk menjalankan perintah. Variabel Nama digabungkan dengan teks menggunakan beberapa argumen pada print().Menu tersebut nantinya akan diproses menggunakan conditional statement if, elif, dan else.<br>
 
 <img width="347" height="16" alt="Screenshot 2026-09-12 120219" src="https://github.com/user-attachments/assets/3c821538-bbcd-4f1c-a103-4c8f692d42dd" /> <br>
 Kode ini digunakan untuk menerima pilihan menu dari pengguna berdasar pilihannya diblok atas. Input disimpan dalam variabel pilihan. <br>
