@@ -116,7 +116,7 @@ Jika nama_baru == "", program menampilkan pesan bahwa nama tugas tidak boleh kos
 -Setelah itu, ia akan memvalidasi input. Perulangan akan berjalan jika pengguna memasukkan data yang tidak sesuai, yaitu Input bukan berupa angka, angka yang dimasukkan kurang dari 1 , angka yang dimasukkan lebih dari 5. Jika input tidak valid, program menampilkan pesan kesalahan dan meminta pengguna memasukkan skala kesulitan kembali. Proses ini akan terus berulang sampai pengguna memasukkan angka dari 1 hingga 5.
 -Dan terakhir, dalam code `kesulitan_baru = int(kesulitan_baru)` nilai kesulitan_baru diubah dari tipe data string menjadi integer menggunakan int().<br>
 
-8.<img width="437" height="317" alt="Screenshot 2026-09-12 154922" src="https://github.com/user-attachments/assets/c7c93be1-3720-43b9-a033-1b87a03c5c08" /><br>
+8.<img width="437" height="317" alt="Screenshot 2026-09-12 154922" src="https://github.com/user-attachments/assets/c7c93be1-3720-43b9-a033-1b87a03c5c08" /> <br>
 - pada bagan awal, Bagian ini memiliki fungsi yang sama dengan penentuan tingkat kesulitan pada menu tambah tugas, tetapi menggunakan variabel yang baru diinput pengguna sebagai pengganti tugas. Tujuannya adalah menentukan keterangan tingkat kesulitan berdasarkan skala yang baru dimasukkan pengguna.
 - Setelah deadline dan kesulitan diperbarui, program menghitung ulang prioritas tugas. Hal ini penting karena perubahan deadline atau tingkat kesulitan dapat menyebabkan prioritas tugas berubah. Contohnya, tugas yang sebelumnya memiliki prioritas rendah dapat berubah menjadi tinggi apabila deadline-nya diubah menjadi tinggal satu hari. (baikin lagi semua dibawah)
 
