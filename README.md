@@ -64,7 +64,32 @@ Jika list tidak kosong, program menggunakan perulangan for untuk mengakses setia
 
 4.OUTPUT <BR>
     <img width="273" height="196" alt="Screenshot 2026-09-12 125558" src="https://github.com/user-attachments/assets/73c4b684-4a26-481f-a322-2bd5ae62c185" /> <br>.
-   
+
+======== PEMBAHASAN MENU KETIGA : HAPUS TUGAS ========<br>
+1. <img width="293" height="30" alt="Screenshot 2026-09-12 132326" src="https://github.com/user-attachments/assets/7da278d8-b731-4491-ace4-4fcace4fa6ed" /> <br>
+Jika pengguna memilih menu nomor 3, program menjalankan proses untuk menghapus tugas. Dan sistem akan menampilkan tampilan jika menu menghapus tugas terpilih. <br>
+
+2.<img width="380" height="29" alt="Screenshot 2026-09-12 132736" src="https://github.com/user-attachments/assets/29b3dbb1-31d3-411c-8a6b-506892aea2c3" /> <br>
+Program diatas berfungsi memeriksa apakah list tugas kosong. Jika tidak ada tugas, proses penghapusan tidak dapat dilakukan dan akan menampilkam pesan "belum ada tugas yang dapat dihapus." <br>
+
+3.<img width="329" height="52" alt="Screenshot 2026-09-12 133457" src="https://github.com/user-attachments/assets/3e72cb30-777c-457f-8476-db283e703aa4" /> <br>
+Dalam bagan ini, Jika terdapat tugas, program menampilkan seluruh nama tugas beserta nomor urutnya. `i + 1` digunakan karena indeks Python dimulai dari 0, sedangkan nomor yang ditampilkan kepada pengguna lebih mudah dimulai dari 1. <br>
+
+4.<img width="562" height="21" alt="Screenshot 2026-09-12 133756" src="https://github.com/user-attachments/assets/dcf41b06-6f0c-4561-b263-53177772abad" /> <br>
+Pengguna diminta memasukkan nomor tugas yang ingin dihapus. <br>
+
+5.<img width="526" height="46" alt="Screenshot 2026-09-12 133936" src="https://github.com/user-attachments/assets/3adf756d-1e12-4d40-8134-7cbfe44da981" /> <br>
+Program memastikan nomor yang dimasukkan berupa angka yang tidak kurang dari 1 namun tidak lebih besar dari jumlah tugas yang tersedia. AKan tetapi, jika tidak valid, pengguna diminta memasukkan nomor kembali. Setelah itu sistem akan memperingatkan pengguna jika nomor yang dimasukkan tidak ada dengan code print. <br>
+
+6.<img width="239" height="32" alt="Screenshot 2026-09-12 134137" src="https://github.com/user-attachments/assets/d56e28aa-79eb-401e-9d7a-ed01906673f6" /> <br>
+Bagan ini mengartikan jika nomor yang dimasukkan pengguna diubah menjadi integer. Kemudian dikurangi 1 karena indeks list Python dimulai dari 0.
+
+
+
+
+
+
+
 
 
 
