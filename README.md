@@ -117,20 +117,24 @@ Jika nama_baru == "", program menampilkan pesan bahwa nama tugas tidak boleh kos
 -Dan terakhir, dalam code `kesulitan_baru = int(kesulitan_baru)` nilai kesulitan_baru diubah dari tipe data string menjadi integer menggunakan int().<br>
 
 8.<img width="437" height="317" alt="Screenshot 2026-09-12 154922" src="https://github.com/user-attachments/assets/c7c93be1-3720-43b9-a033-1b87a03c5c08" /> <br>
-- pada bagan awal, Bagian ini memiliki fungsi yang sama dengan penentuan tingkat kesulitan pada menu tambah tugas, tetapi menggunakan variabel yang baru diinput pengguna sebagai pengganti tugas. Tujuannya adalah menentukan keterangan tingkat kesulitan berdasarkan skala yang baru dimasukkan pengguna.
-- Setelah deadline dan kesulitan diperbarui, program menghitung ulang prioritas tugas. Hal ini penting karena perubahan deadline atau tingkat kesulitan dapat menyebabkan prioritas tugas berubah. Contohnya, tugas yang sebelumnya memiliki prioritas rendah dapat berubah menjadi tinggi apabila deadline-nya diubah menjadi tinggal satu hari. (baikin lagi semua dibawah)
+- pada bagan awal, Bagian ini memiliki fungsi yang sama dengan penentuan tingkat kesulitan pada menu tambah tugas, tetapi menggunakan variabel yang baru diinput pengguna sebagai pengganti tugas. 
+- Setelah sisa waktu dan kesulitan diperbarui, program menghitung ulang prioritas tugas. Karena Hal ini penting karena perubahan sisa waktu atau tingkat kesulitan dapat menyebabkan prioritas tugas berubah. Karena sisa waktu dan tingkat kesulitan sangat mempengaruhi seberapa prioritasnya tugas tersebut. <br>
 
 9.<img width="260" height="105" alt="Screenshot 2026-09-12 155706" src="https://github.com/user-attachments/assets/90a97930-16a9-47f5-ba12-b957d09137d1" /> <br>
-Bagian ini digunakan untuk mengganti seluruh data tugas lama dengan data baru. Berbeda dengan append(), kode ini tidak menambahkan tugas baru. Data pada posisi indeks tertentu justru diganti dengan informasi terbaru. <br>
+Bagian ini berguna untuk mengganti seluruh data tugas lama yang ada sebelumnya dengan data baru. Berbeda dengan append(), kode ini tidak menambahkan tugas baru.Nantinya data padw posisi yang sama pada indeks tersebut akan berubah sesuai dengan ketentuan yang diinginkan oleh pengguna. <br>
 
 10.<img width="426" height="105" alt="Screenshot 2026-09-12 155832" src="https://github.com/user-attachments/assets/f91d97c4-7916-4bbd-8e0e-b7693938f2dd" /> <br>
-Bagian ini digunakan untuk mengganti seluruh data tugas lama dengan data baru. Berbeda dengan append(), kode ini tidak menambahkan tugas baru. Data pada posisi indeks tertentu justru diganti dengan informasi terbaru. <br>
+Berfungsi sebagai menampilkan list data baru yang telah diinput perubahannya oleh pengguna.<br>
 
 11.<img width="474" height="106" alt="Screenshot 2026-09-12 155951" src="https://github.com/user-attachments/assets/9a2b6b65-864e-4eb0-84f1-cf4cb3db1485" /> <br>
-Bagian ini memberikan konfirmasi bahwa tugas berhasil diperbarui. Program juga menampilkan seluruh data terbaru agar pengguna dapat memastikan bahwa perubahan telah tersimpan. Perintah break digunakan untuk menghentikan while True. Tanpa break, menu akan terus berjalan tanpa batas.<br>
+Pada bagian ini, artinya semua kode telah selesai digunakan dan pengguna telah memilih untuk menyelesaikan program tersebut. Adanya Perintah break diakhir yang mengartian untuk menghentikan while True yang digunakan sebagia looping diatas. Tanpa adanya break, menu akan terus berjalan tanpa batas.<br>
 
 12<img width="404" height="53" alt="Screenshot 2026-09-12 160106" src="https://github.com/user-attachments/assets/41a9c03c-3c75-4a99-8c7e-d0d7ab318094" /> <br> 
-Blok else dijalankan apabila pengguna memasukkan pilihan selain "1", "2", "3", "4", atau "5". Program tidak langsung berhenti, tetapi memberikan pesan kesalahan. Setelah itu, karena masih berada di dalam while True, program kembali menampilkan menu utama dan pengguna dapat mencoba memasukkan pilihan yang benar. <br>
+Hal ini merupakan Blok terakhir. Yaitu else yang  dijalankan apabila pengguna memasukkan pilihan selain "1", "2", "3", "4", atau "5" pada menu utama diawal. Program tidak langsung berhenti, tetapi memberikan pesan kesalahan. Setelah itu, karena masih berada di dalam while True, program kembali menampilkan menu utama dan pengguna dapat mencoba memasukkan pilihan yang benar. <br>
+
+output:<br>
+<img width="338" height="315" alt="Screenshot 2026-09-12 170618" src="https://github.com/user-attachments/assets/9d9afb5e-f04c-460e-a6b0-1df3ad0864e1" /> <br>
+
 
 
 
