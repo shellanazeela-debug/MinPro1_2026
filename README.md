@@ -82,8 +82,9 @@ Pengguna diminta memasukkan nomor tugas yang ingin dihapus. <br>
 Program memastikan nomor yang dimasukkan berupa angka yang tidak kurang dari 1 namun tidak lebih besar dari jumlah tugas yang tersedia. AKan tetapi, jika tidak valid, pengguna diminta memasukkan nomor kembali. Setelah itu sistem akan memperingatkan pengguna jika nomor yang dimasukkan tidak ada dengan code print. <br>
 
 6.<img width="239" height="32" alt="Screenshot 2026-09-12 134137" src="https://github.com/user-attachments/assets/d56e28aa-79eb-401e-9d7a-ed01906673f6" /> <br>
-Bagan ini mengartikan jika nomor yang dimasukkan pengguna diubah menjadi integer. Kemudian dikurangi 1 karena indeks list Python dimulai dari 0.
+Bagan ini mengartikan jika nomor yang dimasukkan pengguna diubah menjadi integer. Kemudian dikurangi 1 karena indeks list Python dimulai dari 0. <br>
 
+7. 
 
 
 
